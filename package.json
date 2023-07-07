@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Support pour la restit javadays",
   "scripts": {
-    "start-dev": "marp -ps ."
+    "restit-serve": "marp -ps",
+    "restit-watch": "cpy \"assets/**/*\" dist/assets && marp -pw"
   },
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@marp-team/marp-cli": "^3.0.2"
+    "@marp-team/marp-cli": "^3.0.2",
+    "cpy-cli": "^5.0.0"
   }
 }
