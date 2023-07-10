@@ -52,6 +52,7 @@ Core Profile: new minimal profile for microservices
 
 ![bg 55%](./assets/images/sbom.webp)
 
+<!-- cf. Blackduck, dependencyTrack, etc. -->
 ---
 <!-- _footer: Supply Chain and SBOM -->
 # Supply Chain and SBOM
