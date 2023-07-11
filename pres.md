@@ -1,4 +1,5 @@
 ---
+marp: true
 theme: gaia
 _class: lead
 paginate: true
@@ -6,6 +7,13 @@ backgroundImage: url('./assets/images/hero-background.svg')
 footer: 01-06-2023 - Jardin d'Acclimatation
 ---
 # Restitution JavaDay 2023 ☕
+
+---
+# JavaDay
+
+- Évènement annuel organisé par le Paris JUG (2ème édition cette année)
+- Conférences centrées autour de l'écosystème Java
+
 
 ---
 # Java 21
@@ -45,6 +53,24 @@ Core Profile: new minimal profile for microservices
 
 ---
 # CRaC vs GraalVM
+
+- CRaC et GraalVM, même objectif : démarrage rapide
+- Se passer de la "pré-chauffe" de la JVM :
+    - JIT compilation
+    - Analyse des annotations
+    - Initialisation d'un contexte applicatif (Spring)
+
+
+---
+# CRaC vs GraalVM
+
+- Checkpoint & restore : Faire une "snapshot" de la JVM après ce warm-up
+
+- Démarrage en mode restore depuis le checkpoint : on passe cette phase de warm-up
+
+- Permets de se passer des contraintes du natif (on travaille toujours avec une JVM)
+
+
 
 
 ---
